@@ -3,6 +3,12 @@ search greedy/ungreedy
 `:/a.\{-}bxx`
 
 
+## Module
+#### vimdiff
+dp, diffput
+do, diffobtain
 
-Plugin summary
+## Plugin summary
+
+
 
