@@ -1,0 +1,34 @@
+# this file should be softlinked to  `~/.astylerc` to be effective.
+# the complete manual is generally located at /usr/share/doc/astyle/html/astyle.html
+
+--align-pointer=middle
+--style=kr
+
+
+# Options: indent 
+
+# needless to say
+--indent=spaces=4
+
+# indent switch blocks so that the 'case X:' statements are indent in switch
+# block. The entire case block is indent.
+--indent-switches
+
+# indent C++ comments beginning in column one. By default, C++ comments beginning
+# in column one are not indent.
+--indent-col1-comments
+
+
+# Options: padding
+# padding spaces around operators
+--pad-oper
+
+# Insert space padding after commas. 
+--pad-comma
+
+# convert tabs into spaces in the non-indentation part of line. The number of spaces
+# inserted will maintain the spacing of the tab.
+--convert-tabs
+
+--max-code-length=100
+--break-one-line-headers
