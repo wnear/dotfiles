@@ -1,11 +1,11 @@
 # this file should be softlinked to  `~/.astylerc` to be effective.
 # the complete manual is generally located at /usr/share/doc/astyle/html/astyle.html
 
---align-pointer=middle
+--align-pointer=name
 --style=kr
 
 
-# Options: indent 
+# Options: indent
 
 # needless to say
 --indent=spaces=4
@@ -16,14 +16,17 @@
 
 # indent C++ comments beginning in column one. By default, C++ comments beginning
 # in column one are not indent.
---indent-col1-comments
+# TODO: this item contradicts with the default behavior of Qt-creator, but not the
+# vim-nerd-commenter, so it's disabled for now, future edit should be done in vimrc,
+# There should exist two kinds of comments: one to explain things, one to disabled code.
+#--indent-col1-comments
 
 
 # Options: padding
 # padding spaces around operators
 --pad-oper
 
-# Insert space padding after commas. 
+# Insert space padding after commas.
 --pad-comma
 
 # convert tabs into spaces in the non-indentation part of line. The number of spaces
