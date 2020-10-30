@@ -1,0 +1,12 @@
+[submodule "fish"]
+	path = fish
+	url = https://github.com/wnear/oh-my-fish.git
+[submodule "zsh"]
+	path = zsh
+	url = https://github.com/wnear/ohmyzsh.git
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/wnear/neovim-init.vim.git
+[submodule "tmux"]
+	path = tmux
+	url = https://github.com/wnear/.tmux.git
